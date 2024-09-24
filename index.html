@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>document</title>
+</head>
+
+<body>
+
+    <form action="./index.html" method="get">
+        
+            <h1><center>GENERAL BUS PASS APPLICATION</center></h1>
+        <fieldset>
+            <legend>Applicant Details</legend>
+            <label for="N">Name:</label>
+            <input type="text" name="Name" id="N" required>
+
+            <label for="fg">Father's/Guardian's Name:</label>
+            <input type="text" name="Name" id="fg" required><br><br>
+
+            <label for="DOB">Date of Birth:</label>
+            <input type="date" name="Date of Birth" id="DOB" required>
+
+            <label for="Gender">GENDER:</label>
+            <label for="Male">Male</label>
+            <input type="radio" name="gender" value="Male"  required>
+
+            <label for="Female">Female</label>
+            <input type="radio" name="gender" value="Female"  required><br><br>
+
+            <label for="ASO">Age As on:</label>
+            <input type="text" name="Age As on" id="ASO" required>
+
+            <label for="adhr">Aadhaar No.:</label>
+            <input type="text" name="Aadhaar No." id="adhr" required><br><br>
+
+            <label for="mn">Mobile No.:</label>
+            <input type="text" name="Mobile No.:" id="mn" required>
+
+            <label for="ei">Email id</label>
+            <input type="text" name="Email id" id="ei" required><br><br>
+
+            <label for="ph">Photo</label>
+            <input type="file" name="Photo" id="ph" required><br><br>
+        </fieldset>
+        <fieldset>
+            <legend>Residential Address Details</legend>
+
+            <label>Applicant's Address</label>
+            <textarea name="Applicant's Address"></textarea>
+
+            <label for="ds">District</label>
+            <select id="ds">
+                <option value="Gadwal">Gadwal</option>
+                <option value="Adilabad">Adilabad</option>
+                <option value="Nizambad">Nizambad</option>
+                <option value="Khammam">Khammam</option>
+            </select><br><br>
+
+            <label for="mnd">Mandal</label>
+            <select id="mnd">
+                <option value="Musheerabad">Musheerabad</option>
+                <option value="Mulugu">Mulugu</option>
+                <option value="Malkajgiri">Malkajgiri</option>
+                <option value="Alampur">Alampur</option>
+            </select>
+
+            <label for="vlg">Village</label>
+            <select id="vlg">
+                <option value="madipalli">madipalli</option>
+                <option value="Adoni">Adoni</option>
+                <option value="Kannur">Kannur</option>
+                <option value="Bheempalli">Bheempalli</option>
+            </select><br><br>
+
+
+            <label for="pc">Pin code:</label>
+            <input type="text" name=Pin code"" id="pc" required>
+        </fieldset>
+        <fieldset>
+            <legend>Pass Type Details</legend>
+            <label for="ct">City</label>
+            <select id="ct">
+                <option value="Hyderabad">Hyderabad</option>
+                <option value="Vizag">Vizag</option>
+                <option value="Kurnool">Kurnool</option>
+                <option value="Thirupathi">Thirupathi</option>
+            </select><br><br>
+            <label for="pt">Pass Type</label>
+            <select id="pt">
+                <option value="Day Pass">Day pass</option>
+                <option value="Monthly">Monthly</option>
+                <option value="Year">Year</option>
+            </select><br>
+        </fieldset>
+
+        <fieldset>
+            <legend>Mode of Payment and Pass collection</legend>
+            <label for="PM">Payment Mode </label>
+            <select id="PM">
+                <option value="Cash">Cash</option>
+                <option value="Debit/Credit card">Debit/Credit card</option>
+                <option value="UPI">UPI</option>
+
+            </select><br><br>
+            <label for="PDM">Pass Delivery Mode </label>
+            <select id="PDM">
+                <option value="Normal">Normal</option>
+                <option value="Express">Express</option>
+            </select><br><br>
+
+            <label for="CLL">Collection </label>
+            <select id="CLL">
+                <option value="Jammikunta">Jammikunta</option>
+                <option value="secunderabad">secunderabad</option>
+            </select><br><br>
+        </fieldset>
+        <input type="submit" value="submit">
+    </form>
+</body>
+
+</html>
